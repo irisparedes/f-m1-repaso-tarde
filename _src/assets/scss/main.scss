@@ -1,15 +1,6 @@
-@import 'core/settings';
+@import 'core/variables';
 
-body {
-	height: 100vh;
-}
+@import 'layout/base';
+@import 'layout/header';
 
-.btn {
-  background-color: $color-blueButterfly;
-  &:hover {
-    color: red;
-    font-size: toRem(16px)
-  }
-}
-
-.btn:hover {}
+@import 'components/page';
