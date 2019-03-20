@@ -1,0 +1,16 @@
+@import 'core/settings';
+
+body {
+	background: url('../images/logo-adalab-80px.png') center center no-repeat $color-blueButterfly;
+	height: 100vh;
+}
+
+.btn {
+  background-color: $color-blueButterfly;
+  &:hover {
+    color: red;
+    font-size: toRem(16px)
+  }
+}
+
+.btn:hover {}
