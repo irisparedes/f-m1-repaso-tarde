@@ -1,3 +1,23 @@
 .page {
   padding: 0 20px;
 }
+
+@media all and (min-width:768px) {
+  .page {
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    grid-template-rows: auto auto;
+    &__header {
+      grid-column: 1/2;
+      grid-row: 1/2;
+    }
+    &__main {
+      grid-column: 1/2;
+      grid-row: 2/3;
+    }
+    &__secondary {
+      grid-column: 2/3;
+      grid-row: 1/3;
+    }
+  }
+}
