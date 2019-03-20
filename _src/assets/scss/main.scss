@@ -1,6 +1,9 @@
-@import 'core/variables';
+@import './core/variables';
 
-@import 'layout/base';
-@import 'layout/header';
+@import './layout/base';
+@import './layout/header';
+@import './layout/secondary-content';
 
-@import 'components/page';
+@import './components/page';
+@import './components/author';
+@import './components/nav';
