@@ -9,8 +9,9 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.4;
-  background-color: #fff;
-  color: #000;
+  background-color: gray;
+  background: linear-gradient(90deg,$color-greyMouse 50%, $color-whiteSnow 50%);
+  color: $color-blackBatman;
   min-height: 100vh;
 }
 
